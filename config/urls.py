@@ -21,4 +21,5 @@ from lotto import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('buy/', views.buy)
 ]
